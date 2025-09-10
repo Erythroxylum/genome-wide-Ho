@@ -1,5 +1,5 @@
 # genome-wide-Ho
-This repository contains shell scripts to calculate genome-wide heterozygosity (Ho) from whole-genome sequencing data. The pipeline uses BEDTools and BCFtools to mask non-callable regions, extract SNPs, and compute heterozygosity metrics.
+This repository contains shell scripts to calculate genome-wide heterozygosity (Ho) from whole-genome sequencing data. The pipeline extracts regions of Ns from a consensus fasta sequence and combines those regions with other coverage masks (such as those generated in the github.com/Erythroxylum/psmc-pipeline) and then uses BEDTools and BCFtools to mask non-callable regions (N's) from a fasta, extract SNPs, and compute heterozygosity metrics.
 
 ## Requirements
 
