@@ -49,3 +49,5 @@ The final output will be a tab-delimited file (heterozygosity_summary.tsv) with 
 You can adjust genotype quality (GQ) and depth (DP) thresholds in 03_count-variants-Ho.sh (default = no filter).
 
 For multiple samples, run step 03 separately for each sample name.
+
+**Cite your packages!**
